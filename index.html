@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frontonh Apps</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1b2430; --muted: #5a6573; --accent: #2f6fde; --card: #f2f5fa; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1b2430; --fg: #e8f0fe; --muted: #a9b4c2; --accent: #7fb2ff; --card: #26364d; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 16px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  a.card { display: flex; align-items: center; gap: 16px; background: var(--card); border-radius: 12px;
+           padding: 16px 20px; margin: 12px 0; color: inherit; text-decoration: none; }
+  a.card img { width: 56px; height: 56px; border-radius: 12px; }
+  a.card span { color: var(--muted); display: block; }
+  footer { margin-top: 3em; color: var(--muted); font-size: 0.9em; }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<h1>Frontonh Apps</h1>
+<a class="card" href="glisspad/">
+  <img src="glisspad/icon.png" alt="">
+  <div><strong>Glisspad</strong><span>Pavé numérique et trackpad Bluetooth pour PC</span></div>
+</a>
+<footer>Contact : <a href="mailto:frontonh.apps@gmail.com">frontonh.apps@gmail.com</a></footer>
+</main>
+</body>
+</html>
